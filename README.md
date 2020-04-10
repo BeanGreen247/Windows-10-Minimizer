@@ -7,3 +7,5 @@ v 1.0 released
 * Ability to enable Windows Update if needed
 
 Let me know what you think of it. You can also submit your ideas.
+
+https://beangreen247.github.io/DebloatWindows10/
