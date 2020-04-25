@@ -6,6 +6,9 @@ The goal of this project is to make optimizing Windows as simple as clicking a b
 More features will be added as I see fit, or if there is demand for it.
 
 ## Changelog
+#### v 1.0.2 released
+* Added hires icon/logo
+
 #### v 1.0.1 released
 * Modern design implementation
 
