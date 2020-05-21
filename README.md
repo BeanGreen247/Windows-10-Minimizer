@@ -6,6 +6,10 @@ The goal of this project is to make optimizing Windows as simple as clicking a b
 More features will be added as I see fit, or if there is demand for it.
 
 ## Changelog
+#### v 1.0.3 released
+* Added a button to create a startup script to kill unwanted app
+* Added a button remove the created startup script
+
 #### v 1.0.2 released
 * Added hires icon/logo
 

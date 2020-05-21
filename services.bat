@@ -122,4 +122,25 @@ sc config BDESVC start= disabled
 echo "Disableing Auto Time Zone Updater"
 sc config tzautoupdate start= disabled
 
+echo "Disableing More Services"
+sc config CertPropSvc start= disabled
+sc config DPS start= disabled
+sc config fdPHost start= disabled
+sc config FDResPub start= disabled
+sc config FontCache start= disabled
+sc config hidserv start= disabled
+sc config iphlpsvc start= disabled
+sc config PcaSvc start= disabled
+sc config SessionEnv start= disabled
+sc config Spooler start= disabled
+sc config stisvc start= disabled
+sc config StorSvc start= disabled
+sc config TermService start= disabled
+sc config Themes start= disabled
+sc config UmRdpService start= disabled
+sc config VaultSvc start= disabled
+sc config WdiServiceHost start= disabled
+sc config WdiSystemHost start= disabled
+sc config WSearch start= disabled
+
 exit
