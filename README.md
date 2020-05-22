@@ -6,6 +6,9 @@ The goal of this project is to make optimizing Windows as simple as clicking a b
 More features will be added as I see fit, or if there is demand for it.
 
 ## Changelog
+#### v 1.0.4 released
+* Added a registry tweaks button and script
+
 #### v 1.0.3 released
 * Added a button to create a startup script to kill unwanted apps
 * Added a button to remove the created startup script

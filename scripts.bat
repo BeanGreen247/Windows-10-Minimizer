@@ -23,3 +23,4 @@ powershell -file Stop-Edge-PDF.ps1
 decrap_win10.bat
 echo "Done. Press a key to exit"
 pause
+exit

@@ -68,4 +68,8 @@ net stop CoreMessagingRegistrar
 net stop BITS
 net stop tzautoupdate
 
-echo "Done..."
+echo "Script by Tomas Mozdren @ beangreen247.github.io 2020"
+
+echo "Done. Press a key to exit"
+pause
+exit

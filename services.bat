@@ -143,4 +143,6 @@ sc config WdiServiceHost start= disabled
 sc config WdiSystemHost start= disabled
 sc config WSearch start= disabled
 
+echo "Done. Press a key to exit"
+pause
 exit
