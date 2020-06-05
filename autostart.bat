@@ -31,42 +31,42 @@ taskkill /f /im "chrome.exe"
 taskkill /f /im "firefox.exe"
 
 echo "Killing unneeded services..."
-net stop Themes
-net stop Pml Driver HPZ12
-net stop MSMQTriggers
-net stop MSMQ
-net stop IncrediBuild_Coordinator
-net stop IncrediBuild_Agent
-net stop ftpsvc
-net stop EventLog
-net stop DusmSvc
-net stop DPS
-net stop debugregsvc
-net stop NfsClnt
-net stop RasMan
-net stop RpcEptMapper
-net stop RzKLService
-net stop SENS
-net stop gupdate
-net stop UsoSvc
-net stop wscsvc
-net stop SystemEventsBroker
-net stop SQLWriter
-net stop SNMPTRAP
-net stop SCPolicySvc
-net stop ScDeviceEnum
-net stop SCardSvr
-net stop gupdatem
-net stop WpcMonSvc
-net stop hpqcxs08
-net stop Fax
-net stop MapsBroker
-net stop PimIndexMaintenanceSvc_858c8b
-net stop CredentialEnrollmentManagerUserSvc_858c8b
-net stop VaultSvc
-net stop CoreMessagingRegistrar
-net stop BITS
-net stop tzautoupdate
+net stop Themes /y
+net stop Pml Driver HPZ12 /y
+net stop MSMQTriggers /y
+net stop MSMQ /y
+net stop IncrediBuild_Coordinator /y
+net stop IncrediBuild_Agent /y
+net stop ftpsvc /y
+net stop EventLog /y
+net stop DusmSvc /y
+net stop DPS /y
+net stop debugregsvc /y
+net stop NfsClnt /y
+net stop RasMan /y
+net stop RpcEptMapper /y
+net stop RzKLService /y
+net stop SENS /y
+net stop gupdate /y
+net stop UsoSvc /y
+net stop wscsvc /y
+net stop SystemEventsBroker /y
+net stop SQLWriter /y
+net stop SNMPTRAP /y
+net stop SCPolicySvc /y
+net stop ScDeviceEnum /y
+net stop SCardSvr /y
+net stop gupdatem /y
+net stop WpcMonSvc /y
+net stop hpqcxs08 /y
+net stop Fax /y
+net stop MapsBroker /y
+net stop PimIndexMaintenanceSvc_858c8b /y
+net stop CredentialEnrollmentManagerUserSvc_858c8b /y
+net stop VaultSvc /y
+net stop CoreMessagingRegistrar /y
+net stop BITS /y
+net stop tzautoupdate /y
 
 echo "Script by Tomas Mozdren @ beangreen247.github.io 2020"
 
