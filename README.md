@@ -1,4 +1,19 @@
 # Windows 10 Minimizer
+
+## **WARNING**
+
+This tool will remove most metro apps and will leave the core ones need for system stability.
+
+It will remove apps like Photos, The preinstalled games and Office Ad.
+
+It will also prevent these apps from being reinstalled in your system so **bare that in mind**.
+
+The startup script may cause some printers and scanners to not work properly, so **use this tool at your own risk**.
+
+In my case it **did not**, I repeat **did not** affect my workflow a single bit, **but your experience may warry**.
+
+## Description
+
 A utility to make your Windows 10 install more lightweight.
 
 The goal of this project is to make optimizing Windows as simple as clicking a button or two and be done.
