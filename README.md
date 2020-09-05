@@ -1,5 +1,8 @@
 # Windows 10 Minimizer
 
+## **NOTE**
+Before use go into the scripts folder and unblock every single script, in order to make it work properly.
+
 ## **WARNING**
 
 This tool will remove most metro apps and will leave the core ones need for system stability.
