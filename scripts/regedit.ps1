@@ -27,13 +27,6 @@ force-mkdir "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagemen
 Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR" "value" 0
 force-mkdir "HKLM:\SYSTEM\CurrentControlSet\Control\Power"
 Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Power" "HibernateEnabled" 0
-force-mkdir "HKCU:\Control Panel\Desktop"
-Set-Itemproperty "HKCU:\Control Panel\Desktop" "MenuShowDelay" 0
-Set-Itemproperty "HKCU:\Control Panel\Desktop" "AutoEndTasks" 1
-Set-Itemproperty "HKCU:\Control Panel\Desktop" "HungAppTimeout" 4000
-Set-Itemproperty "HKCU:\Control Panel\Desktop" "LowLevelHooksTimeout" 1000
-Set-Itemproperty "HKCU:\Control Panel\Desktop" "WaitToKillAppTimeout" 2500
 force-mkdir "HKLM:\SYSTEM\CurrentControlSet\Control"
-Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control" "WaitToKillServiceTimeout" 2000
 force-mkdir "HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\943c8cb6-6f93-4227-ad87-e9a3feec08d1"
 Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\943c8cb6-6f93-4227-ad87-e9a3feec08d1" "Attributes" 2
