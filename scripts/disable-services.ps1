@@ -20,9 +20,9 @@ $services = @(
     "WMPNetworkSvc"                            # Windows Media Player Network Sharing Service
     "wscsvc"                                   # Windows Security Center Service
     #"WSearch"                                 # Windows Search
-    "XblAuthManager"                           # Xbox Live Auth Manager
-    "XblGameSave"                              # Xbox Live Game Save Service
-    "XboxNetApiSvc"                            # Xbox Live Networking Service
+    #"XblAuthManager"                           # Xbox Live Auth Manager
+    #"XblGameSave"                              # Xbox Live Game Save Service
+    #"XboxNetApiSvc"                            # Xbox Live Networking Service
     "SysMain"                                  # Maintains and improves system performance over time, well it is suposed to, but ends up killing performanec in testing and gameplay
 
     # Services which cannot be disabled
