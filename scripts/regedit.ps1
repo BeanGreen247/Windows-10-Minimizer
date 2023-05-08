@@ -30,4 +30,4 @@ Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Power" "HibernateEnable
 force-mkdir "HKLM:\SYSTEM\CurrentControlSet\Control"
 force-mkdir "HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\943c8cb6-6f93-4227-ad87-e9a3feec08d1"
 Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\943c8cb6-6f93-4227-ad87-e9a3feec08d1" "Attributes" 2
-Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" "ClearPageFileAtShutdown" 1
+Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" "ClearPageFileAtShutdown" 0
