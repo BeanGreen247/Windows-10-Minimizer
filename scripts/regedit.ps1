@@ -13,11 +13,21 @@ force-mkdir "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\Syste
 Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" "NetworkThrottlingIndex" 4294967295
 Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" "SystemResponsiveness" 0
 force-mkdir "HKCU:\System\GameConfigStore"
-Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_DXGIHonorFSEWindowsCompatible" 0
+Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_DXGIHonorFSEWindowsCompatible" 1
 Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_EFSEFeatureFlags" 0
 Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_Enabled" 0
-Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_FSEBehaviorMode" 0
-Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_HonorUserFSEBehaviorMode" 0
+Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_FSEBehaviorMode" 2
+Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_HonorUserFSEBehaviorMode" 1
+Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_DSEBehavior" 2
+Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_FSEBehavior" 2
+force-mkdir "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR"
+Set-Itemproperty "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" "AppCaptureEnabled" 0
+force-mkdir "HKCU:\Software\Microsoft\GameBar"
+Set-Itemproperty "HKCU:\Software\Microsoft\GameBar" "ShowStartupPanel" 0
+Set-Itemproperty "HKCU:\Software\Microsoft\GameBar" "GamePanelStartupTipIndex" 3
+Set-Itemproperty "HKCU:\Software\Microsoft\GameBar" "AllowAutoGameMode" 0
+Set-Itemproperty "HKCU:\Software\Microsoft\GameBar" "AutoGameModeEnabled" 0
+Set-Itemproperty "HKCU:\Software\Microsoft\GameBar" "UseNexusForGameBarEnabled" 0
 force-mkdir "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games"
 Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" "GPU Priority" 8
 Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" "Priority" 6
