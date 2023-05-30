@@ -11,7 +11,7 @@ force-mkdir "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Power"
 Set-Itemproperty "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Power" "HiberbootEnabled" 0
 force-mkdir "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile"
 Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" "NetworkThrottlingIndex" 4294967295
-Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" "SystemResponsiveness" 0
+Set-Itemproperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" "SystemResponsiveness" 1
 force-mkdir "HKCU:\System\GameConfigStore"
 Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_DXGIHonorFSEWindowsCompatible" 1
 Set-Itemproperty "HKCU:\System\GameConfigStore" "GameDVR_EFSEFeatureFlags" 0
